@@ -19,13 +19,12 @@ To provide output/input for Audio I'm using Sound Blaster Play! 2 external USB c
 ### Speaker
 Creative Labs Woof v.3:
 http://us.creative.com/p/speakers/creative-woof-3
-
+![Creative Labs Woof](http://d287ku8w5owj51.cloudfront.net/inline/products/22600/Woof3_lifestyle_1.jpg)
 
 ### Microphone
 
 A cheap USB microphone with tripod:
-https://www.amazon.co.uk/Trust-Starzz-Microphone-Laptop-Connection/dp/B003MFYY3Y/ref=cm_cr_arp_d_product_top?ie=UTF8
-
+![TRUST Starzz](https://stat-s3.ms-online.pl//media/cache/gallery_1090_800/rc/i8JoIdsD/bdk/47/477338_0.jpg)
 
 ## Author
 @peterblazejewicz
