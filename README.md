@@ -53,7 +53,19 @@ http://us.creative.com/p/speakers/creative-woof-3
 ### Microphone
 
 A cheap USB microphone with tripod:
+
 ![TRUST Starzz](https://stat-s3.ms-online.pl//media/cache/gallery_1090_800/rc/i8JoIdsD/bdk/47/477338_0.jpg)
+
+## Amazon SDK examples
+
+Amazon's Java :disappointed: SDK examples fails on setup:
+```
+line with format PCM_SIGNED 16000.0, 16 bit, mono, 2 bytes/frame, little-endian not supported
+```
+The mike and speaker are available for system `arecord` and related tools but not in Java SDK.
+See: https://github.com/amzn/alexa-avs-raspberry-pi/issues?q=is%3Aissue+mono+label%3APCM_SIGNED
+
+
 
 ## Author
 @peterblazejewicz
