@@ -1,6 +1,35 @@
 # alexa-echo-raspi
 Facts and configuration for my Raspberry PI/Raspberry Pi Zero and Amazon Alexa SDK
 
+## Static IP in local network (lastest RASPBIAN JESSIE):
+
+```
+sudo vim /etc/wpa_supplicant/wpa_supplicant.conf
+```
+```
+network={
+        ssid="########"
+        psk="######################"
+        key_mgmt=WPA-PSK
+}
+```
+
+```
+sudo vim /etc/dhcpcd.conf
+```
+```
+interface eth0
+static ip_address=192.168.1.101/24
+static routers=192.168.1.1
+static domain_name_servers=8.8.8.8 8.8.4.4
+static domain_search=
+
+interface wlan0
+inform 192.168.1.101/24
+static routers=192.168.1.1
+static domain_name_servers=8.8.8.8 8.8.4.4
+```
+
 ## Devices
 
 Raspberry Pi 2.0 Model B:
