@@ -68,5 +68,10 @@ See: https://github.com/amzn/alexa-avs-raspberry-pi/issues?q=is%3Aissue+mono+lab
 
 > NOTE: There are ways to configure audio device on Linux: https://gist.github.com/peterblazejewicz/f6c14c3a6f7b78ab820399d856e9bbd7 and https://gist.github.com/peterblazejewicz/f6c14c3a6f7b78ab820399d856e9bbd7
 
+
+Also view this video for useful bits on external sound card usage on Pi:
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/6fAdBehSYiA" frameborder="0" allowfullscreen></iframe>
+
 ## Author
 @peterblazejewicz
