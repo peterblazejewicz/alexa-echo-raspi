@@ -66,6 +66,7 @@ The mike and speaker are available for system `arecord` and related tools but no
 See: https://github.com/amzn/alexa-avs-raspberry-pi/issues?q=is%3Aissue+mono+label%3APCM_SIGNED
 
 
+> NOTE: There are ways to configure audio device on Linux: https://gist.github.com/peterblazejewicz/f6c14c3a6f7b78ab820399d856e9bbd7 and https://gist.github.com/peterblazejewicz/f6c14c3a6f7b78ab820399d856e9bbd7
 
 ## Author
 @peterblazejewicz
